@@ -152,3 +152,8 @@ h2 {
   color: blue;
   padding: 0;
 }
+
+.catalogue {
+  display: flex;
+  flex-wrap: wrap;
+}
