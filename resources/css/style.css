@@ -10,65 +10,145 @@
 }
 
 html {
+  background-color: #f1f1f2;
   box-sizing: border-box;
-  color: #3a3b3d;
+  color: #252267;
   font-family: 'PT';
   font-size: 16px;
 }
 
-/* reuseable class stylings*/
-.flex-box {
+header {
+  background-color: white;
+  height: 2rem;
+  padding: 1rem 1.5rem;
+}
+
+.bar {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.courses {
-  flex-wrap: wrap;
-  justify-content: space-around;
+.logo {
+  font-size: 1.2rem;
+  font-weight: bold;
+  height: 2rem;
+  text-transform: uppercase;
+}
+
+.logo span {
+  color: lightgray;
+  font-weight: 500;
+}
+
+a {
+  color: black;
+  padding: 0 1rem;
+  text-decoration: none;
+}
+
+section {
+  display: flex;
 }
 
 .large-graphic {
   margin: 2rem 1.5rem;
-  height: auto;
-  width: 60%;
+  max-width: 100%;
 }
 
-.medium_img {
-  height: auto;
+.large-graphic img {
+  width: 100%;
 }
 
-.small-img {
+.action-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  font-size: 3rem;
+  max-width: 40%;
+}
+
+.action-box h1 {
+  font-weight: bold;
+  line-height: 1.5;
+  padding-bottom: 1rem;
+}
+
+.action-box p {
+  font-size: 1.5rem;
+  padding-bottom: 1rem;
+}
+
+.action-box button {
+  color: white;
+  background-color: darkgray;
+  border-radius: .5rem;
+  padding: .5rem 0;
+  width: 100%;
+}
+
+.information {
+  background-color: white;
+}
+
+.large-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 60%;
+}
+
+
+
+aside {
+  display: flex;
+  flex-direction: column;
+  padding-top: 1rem;
+  max-width: 40%;
+}
+
+.small-graphic {
   padding: 1rem;
-  height: auto;
-  width: 35%;
+  max-height: auto;
+  max-width: 35%;
 }
 
-/*section stylings*/
-.main-nav {
-  padding: 0 1.5rem;
-  height: 4rem;
+.small-graphic img {
+  max-width: 100%;
 }
 
-.logo {
+figcaption {
+  font-size: 1.2rem;
+  width: 65%;
+}
+
+.description {
+  padding: 1.5rem;
+}
+
+.description h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  padding-bottom: 2rem;
+}
+
+.description p {
+  font-size: 1.5rem;
+  padding-bottom: 2rem;
+}
+
+h2 {
   font-size: 1.5rem;
   font-weight: bold;
+  padding: .5rem 0;
 }
 
-span {
-  color: #c9ced6;
-  font-weight: lighter;
+.info-box p {
+  padding-bottom: .5rem;
 }
 
-li {
-  padding: 1rem;
-}
-
-a {
-  color: #3a3b3d;
-  text-decoration: none;
-}
-
-.main-banner {
-  background-color: #c9ced6;
+.info-box a {
+  color: blue;
+  padding: 0;
 }

@@ -8,135 +8,84 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
   <body>
-    <header>
-      <nav class="main-nav flex-box">
-        <div class="logo flex-box">
-          <img src="resources\imgs\ic-logo.svg" alt="">
-          <h1>COLMAR<span>CADEMY</span></h1>
-        </div>
+    <header class="bar">
+      <div class="logo bar">
+        <img src="resources\imgs\ic-logo.svg" alt="Colmar Academy">
+        <h1>Colmar<span>Academy</span></h1>
+      </div>
 
-        <ul class="flex-box">
-          <li><a href="#">On Campus</a></li>
-          <li><a href="#">Online</a></li>
-          <li><a href="#">For Companies</a></li>
-          <li><a href="#">Sign In</a></li>
-        </ul>
+      <nav>
+        <a href="#">Online</a>
+        <a href="#">On campus</a>
+        <a href="#">For companies</a>
+        <a href="#">Sign in</a>
       </nav>
-      <div class="main-banner flex-box">
-        <img class="large-graphic" src="resources\imgs\banner.jpg" alt="">
-        <div class="start-box">
-          <h1>Learn something new everyday</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-          <button type="button" name="start-button">Start here</button>
+    </header>
+
+    <section class="banner">
+      <div class="large-column">
+        <div class="large-graphic">
+          <img src="resources\imgs\banner.jpg" alt="">
         </div>
       </div>
-    </header>
-    <main>
-      <section class="information flex-box">
-        <div class="lead-in flex-column">
-          <img class="large-graphic" src="resources\imgs\information-main.jpg" alt="">
+      <div class="action-box">
+        <h1>Learn something new everyday</h1>
+        <p>We here at Colmar don't believe in "know it alls". Colmar Academy believes every day offers a new opportunity to expand, explore, and endeavor on a new learning adventure. Click below to start yours!</p>
+        <button type="button" name="start-button">Start here</button>
+      </div>
+    </section>
+
+    <section class="information">
+      <div class="large-column">
+        <div class="large-graphic">
+          <img src="resources\imgs\information-main.jpg" alt="">
+        </div>
+        <div class="description">
           <h1>It doesn't hurt to keep practicing</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-          <small>Emanuel, Sr Strategist at Hiring.com</small>
+          <p>Colomar students aren't the best. They're the better. Always pushing the envelope, exploring the unknown, and thinking outside the box, Colmar students are always striving to be better. Learning new languages, perfecting technique, and always reinventing the digital wheel</p>
+          <small class="author">Emanuel, Sr. strategist at Hiring.com</small>
         </div>
 
-        <div class="info felx-column">
-          <div class="info-box">
-            <img class="small-img" src="resources\imgs\information-orientation.jpg" alt="">
-            <h2>Orientation Date</h2>
-            <p>Tue 10/11 & Wed 10/12: 8am-3pm</p>
-            <a href="#">Save the date</a>
+      </div>
+      <aside class="info">
+        <figure class="info-box bar">
+          <div class="small-graphic">
+            <img src="resources\imgs\information-orientation.jpg" alt="">
           </div>
-          <div class="info-box">
-            <img class="small-img" src="resources\imgs\information-campus.jpg" alt="">
+          <figcaption>
+            <h2>Orientation date</h2>
+            <p>Tue 10/11 &amp Wed 10/12: 8am-3pm</p>
+            <a href="#">Read more</a>
+          </figcaption>
+
+        </figure>
+        <figure class="info-box bar">
+          <div class="small-graphic">
+            <img src="resources\imgs\information-campus.jpg" alt="">
+          </div>
+          <figcaption>
             <h2>Our campus</h2>
-            <p>Find which campus is nearest you</p>
-            <a href="#">Click here</a>
+            <p>Find a campus near you</p>
+            <a href="#">Read more</a>
+          </figcaption>
+
+        </figure>
+        <figure class="info-box bar">
+          <div class="small-graphic">
+            <img src="resources\imgs\information-guest-lecture.jpg" alt="">
           </div>
-          <div class="info-box">
-            <img class="small-img"  src="resources\imgs\information-guest-lecture.jpg" alt="">
+          <figcaption>
             <h2>Our guest lecture</h2>
-            <p>Join a keynote with Oliver Sack about music in medical treatment</p>
-            <a href="#">Sign up now!</a>
-          </div>
-        </div>
-      </section>
+            <p>Join keynote speaker Oliver Sack about music in medical treatment</p>
+            <a href="#">Read more</a>
+          </figcaption>
 
-      <section class="catalogue">
-        <h1>Start Learning</h1>
-        <section class="courses flex-box">
-          <div class="course">
-            <img src="resources\imgs\course-software.jpg" alt="">
-            <h2>Software engineering</h2>
-            <h3>Courses</h3>
-            <p>Web Development, Mobile Development, iOT, APIs</p>
-          </div>
-          <div class="course">
-            <img src="resources\imgs\course-computer-art.jpg" alt="">
-            <h2>Computer art</h2>
-            <h3>Courses</h3>
-            <p>Imaging &amp Design, Web Design, Motion Graphics &amp Visual Effects, Computer Animation</p>
-          </div>
-          <div class="course">
-            <img src="resources\imgs\course-design.jpg" alt="">
-            <h2>Design</h2>
-            <h3>Courses</h3>
-            <p>User Experience Design, User Research, Visual Design</p>
-          </div>
-          <div class="course">
-            <img src="resources\imgs\course-data.jpg" alt="">
-            <h2>Data</h2>
-            <h3>Courses</h3>
-            <p>Data Science, Big Data, SQL, Data Visualization</p>
-          </div>
-          <div class="course">
-            <img src="resources\imgs\course-business.jpg" alt="">
-            <h2>Business</h2>
-            <h3>Courses</h3>
-            <p>PRoduct Development, Business Development, Startup</p>
-          </div>
-          <div class="course">
-            <img src="resources\imgs\course-marketing.jpg" alt="">
-            <h2>Marketing</h2>
-            <h3>Courses</h3>
-            <p>Analytics, Content Marketing, Mobile Marketing</p>
-          </div>
-        </section>
+        </figure>
 
-      </section>
+      </aside>
 
-      <section class="thesis-exhibition">
-        <h1>Thesis Exhibit</h1>
-        <div class="exhibits flex-box">
-          <div class="main-exhibit">
-            <video class="large-graphic" src="resources\videos\thesis.mp4" autoplay loop mute>
-            </video>
-            <h2>Reimagine Urban</h2>
-            <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."</p>
-          </div>
-          <div class="showcase flex-column">
-            <div class="showbox">
-              <img class="small-img" src="resources\imgs\thesis-fisma.jpg" alt="">
-              <h2>Fisma: Design and prototype</h2>
-              <p>Designer showcase of new prototype product</p>
-            </div>
-            <div class="showbox">
-              <img class="small-img" src="resources\imgs\thesis-now-and-then.jpg" alt="">
-              <h2>Now and then</h2>
-              <p>Research study about New York</p>
-            </div>
-          </div>
-        </div>
-      </section>
-    </main>
 
-    <footer class="flex-box">
-      <small>&copy Copyright Colomar Academy. All rights reserved</small>
-      <nav class="legal-nav flex-box">
-        <a href="#">Terms</a>
-        <a href="#">Privacy</a>
-      </nav>
-    </footer>
+    </section>
 
   </body>
 </html>
