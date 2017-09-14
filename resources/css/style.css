@@ -60,6 +60,10 @@ section {
   width: 100%;
 }
 
+.large-graphic video {
+  width: 100%;
+}
+
 .action-box {
   display: flex;
   flex-direction: column;
@@ -191,4 +195,9 @@ h2 {
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
+}
+
+footer {
+  margin: 1rem 1.5rem;
+  height: 3rem;
 }
