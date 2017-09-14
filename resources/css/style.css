@@ -154,6 +154,34 @@ h2 {
 }
 
 .catalogue {
+  background-color: darkgray;
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 4.5rem;
+}
+
+.catalogue .bar {
+  justify-content: flex-start;
+}
+
+.course {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-self: stretch;
+  max-height: 100%;
+  max-width: 25%;
+  margin: 1rem 1rem;
+}
+
+.course img {
+  height: auto;
+  width: 100%;
+}
+
+.course figcaption {
+  margin: 1rem 0 1.5rem 1rem;
 }
