@@ -9,16 +9,23 @@
   </head>
   <body>
     <header class="bar">
-      <div class="logo bar">
+      <div class="logo bar desktop">
         <img src="resources\imgs\ic-logo.svg" alt="Colmar Academy">
         <h1>Colmar<span>Academy</span></h1>
       </div>
 
-      <nav>
+      <nav class="desktop">
         <a href="#">Online</a>
         <a href="#">On campus</a>
         <a href="#">For companies</a>
         <a href="#">Sign in</a>
+      </nav>
+
+      <nav class="mobile">
+        <img src="resources\imgs\ic-logo.svg" alt="home" href="#">
+        <img src="resources\imgs\ic-on-campus.svg" alt="campus" href="#">
+        <img src="resources\imgs\ic-online.svg" alt="online" href="#">
+        <img src="resources\imgs\ic-login.svg" alt="log-in" href="#">
       </nav>
     </header>
 
@@ -36,14 +43,14 @@
     </section>
 
     <section class="information">
-      <div class="large-column">
+      <div class="large-column desktop">
         <div class="large-graphic">
           <img src="resources\imgs\information-main.jpg" alt="">
         </div>
         <div class="description">
           <h1>It doesn't hurt to keep practicing</h1>
           <p>Colomar students aren't the best. They're the better. Always pushing the envelope, exploring the unknown, and thinking outside the box, Colmar students are always striving to be better. Learning new languages, perfecting technique, and always reinventing the digital wheel</p>
-          <small class="author">Emanuel, Sr. strategist at Hiring.com</small>
+          <small>Emanuel, Sr. strategist at Hiring.com</small>
         </div>
 
       </div>
@@ -85,7 +92,7 @@
 
     <section class="catalogue">
       <h1>Start learning</h1>
-      <div class="flex-box">
+      <div class="flex-wrapper desktop">
         <figure class="course">
           <img src="resources\imgs\course-software.jpg" alt="">
           <figcaption>
@@ -135,10 +142,19 @@
           </figcaption>
         </figure>
       </div>
+
+      <nav class="mobile">
+        <button type="button" name="button">Software Engineering</button>
+        <button type="button" name="button">Computer Art</button>
+        <button type="button" name="button">Design</button>
+        <button type="button" name="button">Data</button>
+        <button type="button" name="button">Business</button>
+        <button type="button" name="button">Marketing</button>
+      </nav>
     </section>
 
     <section class="exhibit">
-      <h1>Thesis exhibit</h1>
+      <h1 class="desktop">Thesis exhibit</h1>
       <div class="large-column">
         <div class="large-graphic">
           <video src="resources\videos\thesis.mp4" autoplay loop>
@@ -147,7 +163,7 @@
         <h2>Reimagine urban</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
       </div>
-      <aside class="info">
+      <aside class="info desktop">
         <figure class="info-box bar">
           <div class="small-graphic">
             <img src="resources\imgs\thesis-fisma.jpg" alt="">
@@ -170,7 +186,7 @@
     </section>
     <footer class="bar">
       <small>&copy 2016 Colomar Academy. All rights reserved.</small>
-      <nav>
+      <nav class="desktop">
         <a href="#">Terms</a>
         <a href="#">Privacy</a>
       </nav>

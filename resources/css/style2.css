@@ -1,0 +1,54 @@
+/*font-load*/
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+
+@font-face {
+  font-family: 'PT';
+  font-style: normal;
+  font-weight: 400;
+  src: local('PT Sans'), local('PTSans-Regular'), url(https://fonts.gstatic.com/s/ptsans/v8/ATKpv8nLYAKUYexo8iqqrg.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+body {
+  background-color: #f1f1f2;
+  box-sizing: border-box;
+  color: #252267;
+  font-family: 'PT';
+  font-size: 16px;
+}
+
+header {
+  background-color: white;
+  height: 2rem;
+  padding: 1rem 1.5rem;
+}
+
+/*re-usable classes. Kepping code DRY*/
+
+.bar {
+  color: darkgray;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 2rem;
+  padding: 1rem 1.5rem;
+}
+
+.logo {
+  font-size: 1.2rem;
+  font-weight: bold;
+  height: 2rem;
+  text-transform: uppercase;
+}
+
+.logo span {
+  color: lightgray;
+  font-weight: 500;
+}
+
+a {
+  color: black;
+  padding: 0 1rem;
+  text-decoration: none;
+}
